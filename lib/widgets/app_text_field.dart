@@ -55,12 +55,15 @@ class AppTextField extends StatelessWidget {
               color: AppColors.muted,
               fontWeight: FontWeight.w400,
             ),
-            prefixIcon:
-                icon == null ? null : Icon(icon, color: AppColors.primary, size: 20),
+            prefixIcon: icon == null
+                ? null
+                : Icon(icon, color: AppColors.primary, size: 20),
             filled: true,
             fillColor: AppColors.surface,
-            contentPadding:
-                const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+            contentPadding: const EdgeInsets.symmetric(
+              horizontal: 16,
+              vertical: 16,
+            ),
             border: _border(AppColors.line),
             enabledBorder: _border(AppColors.line),
             focusedBorder: _border(AppColors.primary, 1.8),
