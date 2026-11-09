@@ -147,7 +147,7 @@ class _OrderStatusScreenState extends State<OrderStatusScreen> {
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                 decoration: BoxDecoration(
-                  color: AppColors.mint,
+                  color: AppColors.skyTint,
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Text(
