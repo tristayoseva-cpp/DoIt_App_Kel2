@@ -23,6 +23,9 @@ class AppColors {
   static const skyTint = Color(0xFFDCE8F5); // turunan Cobalt
   static const satsumaTint = Color(0xFFFBE3D3); // turunan Satsuma
 
+  static const mint = skyTint;
+  static const peach = satsumaTint;
+
   static const heroGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
